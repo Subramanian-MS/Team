@@ -1,0 +1,79 @@
+body {font-family: "Lato", sans-serif ;
+background-color:darkgrey}
+.mySlides {display: none}
+#transferIn{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 105%;
+  align-content: center;
+}
+#transferIn td, #transferIn th {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
+
+#transferIn tr:nth-child(even){background-color: #f2f2f2;}
+
+#transferIn tr:hover {background-color: #ddd;}
+#transferIn th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align:center;
+  background-color: paleturquoise;
+  color: black;}
+  .mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+form{
+  position: relative;
+  width: 70%;
+  text-align: right;
+}
+
+label{
+ 
+  width: 30%;
+  position: absolute;
+  left: 200px;
+  text-align: left;
+  margin-right: 30px;
+}
+input[type=submit] {
+  position: relative;
+  width: 20%;
+  text-align: center;
+  margin-right: 30px;
+  font-size: large;
+  background-color: peachpuff
+}
